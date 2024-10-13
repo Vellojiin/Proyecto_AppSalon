@@ -1,0 +1,23 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.fornulario{
+    width: 100%;
+}
+
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    label{
+        flex: 0 0 10rem;
+    }
+
+    input{
+        flex: 1;
+        padding: calc(v.$separacion / 4);
+        border: none;
+        border-radius: 1rem;
+    }
+
+}
